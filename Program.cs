@@ -7,7 +7,7 @@
             Console.Write("Input X: ");
             int X = int.Parse(Console.ReadLine());
             double Y = Math.Log(X);
-            Console.WriteLine($"Y = {Y}");
+            Console.WriteLine($"Y = {Y * 2}");
             Console.ReadKey();
         }
     }
